@@ -14,6 +14,7 @@ gradle-app.setting
 # gradle/wrapper/gradle-wrapper.properties
 
 # User-specific stuff
+.idea
 .idea/**/workspace.xml
 .idea/**/tasks.xml
 .idea/**/dictionaries
