@@ -17,6 +17,14 @@ sourceSets {
             srcDirs = ['src/resources']
         }
     }
+    test {
+        java {
+            srcDirs = ['src/test/java']
+        }
+        resources {
+            srcDirs = ['src/test/resources']
+        }
+    }
 }
 
 sourceCompatibility = 1.8
