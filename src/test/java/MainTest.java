@@ -12,4 +12,10 @@ public class MainTest {
         System.out.println("true = " + true);
         assert true;
     }
+
+    @Test
+    public void test3(){
+        System.out.println("true = " + true);
+        assert false;
+    }
 }
