@@ -38,5 +38,5 @@ dependencies {
 }
 
 nebulaRelease {
-    releaseBranchPatterns = [/master/, /develop/, /HEAD/, /(release(-|\/))?\d+(\.\d+)?\.x/, /v?\d+\.\d+\.\d+/] as Set
+    addReleaseBranchPattern(/develop/)
 }
