@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.gradle.gittag'
-version '1.0.3'
+version version
 
 apply plugin: 'java'
 
