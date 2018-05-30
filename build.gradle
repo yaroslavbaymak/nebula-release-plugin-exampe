@@ -36,3 +36,7 @@ repositories {
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
+
+nebulaRelease {
+    Set<String> releaseBranchPatterns = [/master/, /develop/, /HEAD/, /(release(-|\/))?\d+(\.\d+)?\.x/, /v?\d+\.\d+\.\d+/] as Set
+}
