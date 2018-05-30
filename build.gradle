@@ -38,5 +38,5 @@ dependencies {
 }
 
 nebulaRelease {
-    Set<String> releaseBranchPatterns = [/master/, /develop/, /HEAD/, /(release(-|\/))?\d+(\.\d+)?\.x/, /v?\d+\.\d+\.\d+/] as Set
+    releaseBranchPatterns = [/master/, /develop/, /HEAD/, /(release(-|\/))?\d+(\.\d+)?\.x/, /v?\d+\.\d+\.\d+/] as Set
 }
